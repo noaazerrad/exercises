@@ -8,8 +8,12 @@
 /dataSources/
 /dataSources.local.xml
 
+# nodeJS dir
 nodeJS/message-board/node_modules
 nodeJS/message-board/bin/www
+nodeJS/message-board/.env
+# ruby dir
+
 ruby/Gemfile
 /misc.xml
 
