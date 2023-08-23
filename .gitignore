@@ -1,8 +1,19 @@
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+nodeJS/message-board/node_modules
+nodeJS/message-board/bin/www
+ruby/Gemfile
+/misc.xml
+
 .architect
-bootstrap.css
-bootstrap.js
-bootstrap.json
-bootstrap.jsonp
 build/
 classic.json
 classic.jsonp
@@ -12,3 +23,6 @@ modern.jsonp
 resources/sass/.sass-cache/
 resources/.arch-internal-preview.css
 .arch-internal-preview.css
+
+.idea/
+.git/info/exclude

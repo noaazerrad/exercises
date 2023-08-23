@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  br
+  each m in messages
+    br
+    span #{m.text} from: #{m.user}
+    br
+    form(action=`/delete/${m.id}`, method='POST')
+          input(type='hidden', name='_method', value='DELETE')
+          button(type='submit') Delete
+    br
+  a(type='button' href='/new')
+    button new message
